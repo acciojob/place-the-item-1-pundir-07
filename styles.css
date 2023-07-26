@@ -2,7 +2,6 @@
 	display:flex;
 	flex-wrap:wrap;
 	justify-content:space-between;
-	background-color:yellowgreen;
 	width:100%;
 	gap:10px;
 }
@@ -10,6 +9,16 @@
 	width:100px;
 	height:100px;
 	background-color:red;
+	font-size:3rem;
+}
+.item:nth-child(1){
+	background-color:green;
+}
+.item:nth-child(1){
+	background-color:green;
+}
+.item:nth-child(3){
+	background-color:blue;
 }
 
 	
