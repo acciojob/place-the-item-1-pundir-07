@@ -1,4 +1,15 @@
 .container{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
 	background-color:yellowgreen;
 	width:100%;
+	gap:10px;
 }
+.item{
+	width:100px;
+	height:100px;
+	background-color:red;
+}
+
+	
